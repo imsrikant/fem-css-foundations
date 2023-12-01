@@ -19,12 +19,22 @@ header {
     display:grid;
     grid-template-columns: 1fr 3fr 36px;
     grid-template-rows: 1fr;
+    grid-template-areas: "logo nav shoping-cart";
     align-items: center;
+    padding: 0 60px;
 }
 
+header img {
+    grid-area: shoping-cart;
+}
 
+header > a {
+    font-size: 40px;
+    font-weight: bold;
+}
 nav {
     display: inline-block;
+    justify-self: end;
 }
 
 nav > ul {
@@ -34,4 +44,5 @@ nav > ul {
 
 nav > ul > li {
     margin-inline-end: 36px;
+    font-size: 20px;
 }
