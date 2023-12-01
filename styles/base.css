@@ -15,7 +15,7 @@ a {
     text-decoration: inherit;
 }
 
-header {
+.header {
     display:grid;
     grid-template-columns: 1fr 3fr 36px;
     grid-template-rows: 1fr;
