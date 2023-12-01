@@ -28,21 +28,21 @@ header img {
     grid-area: shoping-cart;
 }
 
-header > a {
+.header__link {
     font-size: 40px;
     font-weight: bold;
 }
-nav {
+.nav {
     display: inline-block;
     justify-self: end;
 }
 
-nav > ul {
+.nav__list {
     display: flex;
     list-style-type: none;
 }
 
-nav > ul > li {
+.nav__list-item {
     margin-inline-end: 36px;
     font-size: 20px;
 }
