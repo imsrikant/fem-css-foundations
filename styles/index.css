@@ -1,5 +1,8 @@
 @import './base.css';
 
+.main {
+    padding: 150px;
+}
 .main__heading {
     font-size: 128px;
     font-weight: bold;
