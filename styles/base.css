@@ -52,6 +52,14 @@ p {
     font-size: 20px;
 }
 
+.button-container {
+    display: flex;
+    margin-top: 100px;
+}
+
+.button:not(button:last-of-type) {
+    margin-inline-end: 36px;
+}
 .button {
     font-size: 32px;
     padding: 0 64px;
