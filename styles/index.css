@@ -1,1 +1,10 @@
-@import './base.css'
+@import './base.css';
+
+.main__heading {
+    font-size: 128px;
+    font-weight: bold;
+}
+
+.main__sub-heading {
+    font-size: 40px;
+}
