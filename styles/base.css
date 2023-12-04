@@ -89,3 +89,11 @@ p {
 .button__icon {
     vertical-align: middle;
 }
+
+
+@media (max-width: 1220px) {
+    .button {
+        font-size: 24px;
+        padding: 0 32px;
+    }
+}
