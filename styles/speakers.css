@@ -9,8 +9,14 @@
     fill: var(--color-button-primary-text);
 }
 
+.speakers__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 200px;
+    grid-row-gap: 120px;
+}
 .speaker__wrapper {
-    width: 460px;
+    max-width: 460px;
 }
 .speaker__photo {
     width: 310px;
