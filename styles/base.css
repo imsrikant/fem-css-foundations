@@ -1,18 +1,19 @@
 :root {
     --color-primary: #ff7b54;
-    --color-text-on-primary:#ffffff;
+    --color-text-on-primary: #ffffff;
     --color-button-border: var(--color-text-on-primary);
     --color-text-on-secondary: #000000;
-    --color-button-primary-bg:var(--color-text-on-primary);
-    --color-button-primary-text:var(--color-primary);
-    --color-button-secondary-bg:var(--color-primary);
-    --color-button-secondary-text:var(--color-text-on-primary);
+    --color-button-primary-bg: var(--color-text-on-primary);
+    --color-button-primary-text: var(--color-primary);
+    --color-button-secondary-bg: var(--color-primary);
+    --color-button-secondary-text: var(--color-text-on-primary);
     --font-family: 'Inter', sans-serif;
 }
 
 .body {
     font-family: var(--font-family);
 }
+
 .body--primary {
     background-color: var(--color-primary);
     color: var(--color-text-on-primary);
@@ -22,6 +23,7 @@
     background-color: var(--color-text-on-primary);
     color: var(--color-primary);
 }
+
 .main {
     padding: 150px;
 }
@@ -35,8 +37,9 @@ h2,
 p {
     margin: 0;
 }
+
 .header {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 3fr 36px;
     grid-template-rows: 1fr;
     grid-template-areas: "logo nav shoping-cart";
@@ -49,6 +52,7 @@ p {
     font-size: 40px;
     font-weight: bold;
 }
+
 .nav {
     display: inline-block;
     justify-self: end;
@@ -63,6 +67,7 @@ p {
     margin-inline-end: 36px;
     font-size: 20px;
 }
+
 .button {
     font-size: 32px;
     padding: 0 64px;
@@ -76,6 +81,7 @@ p {
 .button:focus {
     outline: 2px solid var(--color-button-border);
 }
+
 .button--primary {
     background-color: var(--color-button-primary-bg);
     color: var(--color-button-primary-text);
@@ -97,6 +103,7 @@ p {
         padding: 0 32px;
         height: 70px;
     }
+
     .button img {
         width: 20px;
     }
@@ -110,7 +117,12 @@ p {
 
 @media (max-width: 700px) {
     .button {
-        font-size:16px;
+        font-size: 16px;
         margin-top: 24px;
+    }
+
+    .button--container {
+        margin-top: 32px;
+        flex-wrap: wrap;
     }
 }
