@@ -101,3 +101,16 @@ p {
         width: 20px;
     }
 }
+
+@media (max-width: 815px) {
+    .main {
+        padding: 75px;
+    }
+}
+
+@media (max-width: 700px) {
+    .button {
+        font-size:16px;
+        margin-top: 24px;
+    }
+}
