@@ -100,6 +100,14 @@ p {
     display: none;
 }
 
+@media (max-width: 840px) {
+    .menu {
+        display: block;
+    }
+    .nav {
+        display: none;
+    }
+}
 @media (max-width: 1220px) {
     .button {
         font-size: 24px;
