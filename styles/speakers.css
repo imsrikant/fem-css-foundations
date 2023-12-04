@@ -8,3 +8,10 @@
 .shopping-cart-icon--primary g path {
     fill: var(--color-button-primary-text);
 }
+
+
+.speaker__photo {
+    width: 310px;
+    height: 310px;
+    object-fit: cover;
+}
