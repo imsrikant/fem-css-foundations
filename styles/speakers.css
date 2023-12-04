@@ -47,3 +47,9 @@
 .speaker__bio {
     color:var(--color-text-on-secondary);
 }
+
+@media (width < 1000px) {
+    .speakers__wrapper {
+        grid-template-columns: 1fr;
+    }
+}
