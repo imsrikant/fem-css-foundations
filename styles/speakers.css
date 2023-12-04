@@ -9,7 +9,9 @@
     fill: var(--color-button-primary-text);
 }
 
-
+.speaker__wrapper {
+    width: 460px;
+}
 .speaker__photo {
     width: 310px;
     height: 310px;
@@ -28,11 +30,11 @@
 
 .speaker__company {
     font-size: 24px;
+    margin-bottom: 32px;
 }
 
 .speaker__bio {
     font-size: 20px;
-    margin-bottom: 32px;
 }
 
 .speaker__company,
