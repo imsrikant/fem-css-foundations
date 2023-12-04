@@ -21,6 +21,10 @@
     background-color: var(--color-text-on-primary);
     color: var(--color-primary);
 }
+.main {
+    padding: 150px;
+}
+
 a {
     color: inherit;
     text-decoration: inherit;
