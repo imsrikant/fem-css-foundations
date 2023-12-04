@@ -2,6 +2,7 @@
     --color-primary: #ff7b54;
     --color-text-on-primary:#ffffff;
     --color-button-border: var(--color-text-on-primary);
+    --color-text-on-secondary: #000000;
     --color-button-primary-bg:var(--color-text-on-primary);
     --color-button-primary-text:var(--color-primary);
     --color-button-secondary-bg:var(--color-primary);
