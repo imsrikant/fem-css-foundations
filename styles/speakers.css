@@ -14,6 +14,7 @@
     width: 310px;
     height: 310px;
     object-fit: cover;
+    margin-bottom: 32px;
 }
 
 .speaker__photo--top {
@@ -22,6 +23,7 @@
 
 .speaker__name {
     font-size: 32px;
+    margin-bottom: 20px;
 }
 
 .speaker__company {
@@ -30,6 +32,7 @@
 
 .speaker__bio {
     font-size: 20px;
+    margin-bottom: 32px;
 }
 
 .speaker__company,
