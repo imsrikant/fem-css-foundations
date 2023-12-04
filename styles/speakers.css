@@ -15,3 +15,7 @@
     height: 310px;
     object-fit: cover;
 }
+
+.speaker__photo--top {
+    object-position: top;
+}
