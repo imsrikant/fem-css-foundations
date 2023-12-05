@@ -100,6 +100,8 @@ p {
     display: none;
 }
 
+
+
 @media (max-width: 840px) {
     .menu {
         display: block;
@@ -118,7 +120,7 @@ p {
     .nav--visible {
         left: 0;
     }
-    
+
     .nav__list {
         flex-direction: column;
         justify-content: space-around;
