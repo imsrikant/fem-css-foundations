@@ -81,6 +81,15 @@
                 </button>
                 <button class="button button--secondary">Contact Us</button>
             </div>
+            <script>
+                const nav = document.querySelector(".nav");
+                const menu = document.querySelector(".menu");
+
+                menu.addEventListener("click", () => {
+                    nav.classList.toggle("nav--visible");
+                });
+
+            </script>
         </main>
     </body>
 </html>
