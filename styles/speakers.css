@@ -58,7 +58,5 @@
     .nav {
         background-color: var(--color-text-on-primary);
     }
-    .body--no-scroll {
-        overflow: hidden;
-    }
+    
 }

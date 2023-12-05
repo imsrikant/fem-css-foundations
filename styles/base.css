@@ -101,8 +101,9 @@ p {
 }
 
 .close {
-    display:none;
+    display: none;
 }
+
 .menu,
 .close {
     cursor: pointer;
@@ -123,12 +124,15 @@ p {
         padding-top: 60px;
         transition: left 0.2s linear;
     }
+
     .menu--hide {
         display: none;
     }
+
     .close--show {
         display: block;
     }
+
     .nav--visible {
         left: 0;
     }
@@ -164,9 +168,13 @@ p {
     }
 }
 
-@media (max-width: 815px) {
+@media (max-width: 840px) {
     .main {
         padding: 75px;
+    }
+
+    .body--no-scroll {
+        overflow: hidden;
     }
 }
 
