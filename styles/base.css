@@ -100,7 +100,9 @@ p {
     display: none;
 }
 
-
+.close {
+    display:none;
+}
 
 @media (max-width: 840px) {
     .menu {

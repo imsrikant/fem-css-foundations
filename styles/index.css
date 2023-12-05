@@ -13,6 +13,10 @@
 .home .menu path {
     fill: var(--color-text-on-primary);
 }
+.home .close path {
+    fill: var(--color-text-on-primary);
+}
+
 .button-container {
     display: flex;
     margin-top: 100px;
