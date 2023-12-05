@@ -111,10 +111,14 @@ p {
         height: 100vh;
         background-color: var(--color-primary);
         top: 60px;
-        left: 0%;
-        padding: 60px;
+        left: -100%;
+        padding-top: 60px;
     }
 
+    .nav--visible {
+        left: 0;
+    }
+    
     .nav__list {
         flex-direction: column;
         justify-content: space-around;
